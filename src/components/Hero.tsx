@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="flex flex-wrap gap-8">
               <div className="flex items-center space-x-2">
                 <Star className="h-5 w-5 text-yellow-500" />
-                <span className="text-sm font-medium text-gray-300">15+ Years Experience</span>
+                <span className="text-sm font-medium text-gray-300">8+ Years Experience</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Users className="h-5 w-5 text-green-500" />
