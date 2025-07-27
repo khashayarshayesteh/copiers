@@ -8,7 +8,7 @@ const Products = () => {
       title: 'Commercial Copiers',
       description: 'High-volume multifunction devices for busy offices',
       features: ['Up to 100+ ppm', 'Advanced finishing', 'Network integration', 'Security features'],
-      image: 'https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&w=800'
+<img src="/public/images/sharp-copier.jpg" alt="Sharp Copier" />
     },
     {
       icon: Monitor,
