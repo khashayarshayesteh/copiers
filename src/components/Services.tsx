@@ -5,7 +5,7 @@ const Services = () => {
   const services = [
     {
       icon: ShoppingCart,
-      title: 'Sales',
+      title: 'Leasing',
       description: 'Brand new copiers and printers from leading manufacturers like Canon, HP, Xerox, and Brother.',
       features: [
         'Latest technology models',
@@ -17,7 +17,7 @@ const Services = () => {
     },
     {
       icon: RefreshCw,
-      title: 'Leasing',
+      title: 'Rental',
       description: 'Flexible leasing options that preserve your capital while keeping you current with technology.',
       features: [
         'Low monthly payments',
