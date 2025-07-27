@@ -23,7 +23,7 @@ const Header = () => {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-white">PrintTech Solutions</h1>
-              <p className="text-sm text-gray-400">Sales • Lease • Repair</p>
+              <p className="text-sm text-gray-400">Lease • Rental • Repair</p>
             </div>
           </div>
 
