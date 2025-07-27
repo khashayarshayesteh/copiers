@@ -34,7 +34,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['sales@printtechsolutions.com', 'support@printtechsolutions.com'],
+      details: ['ken.shayesteh@gmail.com', 'khash.shayesteh@gmail.com'],
       description: 'We respond within 2 hours'
     },
     {
@@ -228,7 +228,7 @@ const Contact = () => {
             href="tel:+9493729853"
             className="bg-white text-blue-500 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 inline-block"
           >
-            Call (555) 123-4567
+            Call (949) 372-9853
           </a>
         </div>
       </div>
