@@ -1,35 +1,35 @@
 import React from 'react';
-import { Monitor, Building2, Home, Zap } from 'lucide-react';
+import { Monitor, Building2, Home, Zap, Printer } from 'lucide-react';
 
 const Products = () => {
   const categories = [
     {
-      icon: Building2,
+      //icon: Printer,
       title: 'Commercial Copiers',
       description: 'High-volume multifunction devices for busy offices',
       features: ['Up to 100+ ppm', 'Advanced finishing', 'Network integration', 'Security features'],
-<img src="/public/images/sharp-copier.jpg" alt="Sharp Copier" />
+      image: 'https://digitechca.com/wp-content/uploads/2024/02/BP-50M26_Overview-energyStar.png?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      icon: Monitor,
+      //icon: Monitor,
       title: 'Desktop Printers',
       description: 'Compact and efficient printers for individual workstations',
       features: ['Laser & inkjet options', 'Wireless connectivity', 'Mobile printing', 'Energy efficient'],
-      image: 'https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://digitechca.com/wp-content/uploads/2019/08/sharp-office-copiers.jpg'
     },
     {
-      icon: Zap,
+      //icon: Zap,
       title: 'Production Systems',
       description: 'Industrial-grade printing solutions for high-volume environments',
       features: ['Professional quality', 'Variable data printing', 'Color management', 'Automated workflows'],
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=12800'
     },
     {
-      icon: Home,
+     // icon: Home,
       title: 'Small Office Solutions',
       description: 'Perfect balance of features and affordability for small businesses',
       features: ['All-in-one functionality', 'Cloud connectivity', 'Cost-effective', 'Easy maintenance'],
-      image: 'https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '	https://digitechca.com/wp-content/uploads/2019/10/a4-480x202.jpg'
     }
   ];
 
@@ -68,9 +68,11 @@ const Products = () => {
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-20"></div>
-                  <div className="absolute top-4 left-4 bg-gray-900 p-3 rounded-xl border border-gray-700">
-                    <IconComponent className="h-6 w-6 text-blue-400" />
-                  </div>
+                  {IconComponent && (
+                    <div className="absolute top-4 left-4 bg-gray-900 p-3 rounded-xl border border-gray-700">
+                      <IconComponent className="h-6 w-6 text-blue-400" />
+                   </div>
+                  )}
                 </div>
                 
                 <div className="p-8">
