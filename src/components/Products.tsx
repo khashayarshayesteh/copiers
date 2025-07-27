@@ -34,7 +34,7 @@ const Products = () => {
   ];
 
   const brands = [
-    { name: 'Sharp', logo: 'https://www.abdofficesolutions.com/products/sharp-mx-5071' },
+    { name: 'Canon', logo: 'https://www.abdofficesolutions.com/products/sharp-mx-5071' },
     { name: 'HP', logo: 'https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=400' },
     { name: 'Xerox', logo: 'https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&w=400' },
     { name: 'Brother', logo: 'https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&w=400' }
