@@ -225,7 +225,7 @@ const Contact = () => {
             Call us now for urgent repair needs or emergency service requests.
           </p>
           <a
-            href="tel:+15551234567"
+            href="tel:+9493729853"
             className="bg-white text-blue-500 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 inline-block"
           >
             Call (555) 123-4567
