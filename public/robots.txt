@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://khashayarshayesteh.github.io/copiers/sitemap.xml
