@@ -26,7 +26,7 @@ const About = () => {
   ];
 
   const stats = [
-    { number: '15+', label: 'Years in Business' },
+    { number: '8+', label: 'Years in Business' },
     { number: '500+', label: 'Satisfied Clients' },
     { number: '24/7', label: 'Support Available' },
     { number: '99%', label: 'Customer Satisfaction' }

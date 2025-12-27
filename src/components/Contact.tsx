@@ -29,24 +29,24 @@ const Contact = () => {
       icon: Phone,
       title: 'Call Us',
       details: ['(949)372-9853'],
-      description: 'Mon-Fri 8AM-6PM, Sat & Sun 9AM-2PM'
+      description: 'Mon-Fri 8AM-6PM, Sat 9AM-2PM'
     },
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['ken.shayesteh@gmail.com', 'khash.shayesteh@gmail.com'],
+      details: ['shayesteh.office@gmail.com'],
       description: 'We respond within 2 hours'
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      details: ['123 Business Park Drive', 'Suite 200, Your City, ST 12345'],
+      details: ['1540 S Lyon, Santa Ana, CA 92605'],
       description: 'Free parking available'
     },
     {
       icon: Clock,
       title: 'Business Hours',
-      details: ['Monday - Friday: 8AM - 6PM', 'Saturday & Sunday: 9AM - 2PM'],
+      details: ['Monday - Friday: 8AM - 6PM', 'Saturday: 9AM - 2PM'],
       description: 'Emergency service available 24/7'
     }
   ];
@@ -165,7 +165,7 @@ const Contact = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-700 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
-                      placeholder="(949) 372-9853"
+                      placeholder="(###)###-####"
                     />
                   </div>
                 </div>
